@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.lista ul {
+  display: flex;
+  gap: 28px;
+}
+
+.lista ul li a {
+  color: #000;
+}
+
+@media (max-width: 834px) {
+  .header {
+    width: 595px;
+  }
+}
+
+@media (max-width: 428px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+  }
+
+  .lista ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

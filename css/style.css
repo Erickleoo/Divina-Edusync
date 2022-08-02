@@ -1,0 +1,8 @@
+@import url(./global/reset.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+@import url(./home/conteudo.principal.css);
+@import url(./home/cards.css);
+
+@import url(./contato/contato.css);
