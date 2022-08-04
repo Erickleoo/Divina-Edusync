@@ -120,24 +120,14 @@
   }
 }
 
-@media (max-width: 680px) {
-  .boxes {
-    width: 500px;
-  }
-}
-
-
 @media (max-width: 428px) {
   .boxes {
     display: flex;
     flex-direction: column;
-    margin: 20px;
     width: 325px;
   }
 
   .container-contact-bg {
     display: none;
   }
-
-
 }
