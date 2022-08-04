@@ -8,6 +8,10 @@
   color: #660027;
 }
 
+.conteudo-principal p {
+  text-align: justify;
+}
+
 @media (max-width: 834px) {
   .conteudo-principal {
     width: 595px;
