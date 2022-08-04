@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  gap: 10px;
 }
 
 .container-form {
@@ -22,21 +23,25 @@
   padding: 9px 171px 58px 189px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 29px;
 }
 
 .quadrado {
+  margin-top: -25px;
+  margin-bottom: -20px;
   width: 31px;
   height: 33px;
   background: #c4c4c4;
 }
 
 .form label {
+  margin-top: -15px;
   font-size: 1.5rem;
   color: #7B7676;
 }
 
 .form input {
+  margin-top: -20px;
   width: 400px;
   height: 42px;
   border: 1px solid #660027;
@@ -44,14 +49,14 @@
 }
 
 .form textarea {
-  width: 400px;
-  height: 125px;
+  margin-top: -25px;
+  max-width: 400px;
+  max-height: 125px;
   border: 1px solid #660027;
   border-radius: 4px;
 }
 
 .form button {
-  margin-top: 34px;
   width: 128px;
   height: 42px;
   background: #660027;
@@ -107,13 +112,20 @@
   }
 
   .form textarea {
-    width: 243px;
+    max-width: 243px;
   }
 
   .container-contact-content p {
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 680px) {
+  .boxes {
+    width: 500px;
+  }
+}
+
 
 @media (max-width: 428px) {
   .boxes {
