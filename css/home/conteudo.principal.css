@@ -12,14 +12,14 @@
   .conteudo-principal {
     width: 595px;
   }
+
+  .conteudo-principal img {
+    display: none;
+  }
 }
 
 @media (max-width: 428px) {
   .conteudo-principal {
     width: 320px;
-  }
-
-  .conteudo-principal img {
-    display: none;
   }
 }
