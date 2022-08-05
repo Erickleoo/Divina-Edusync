@@ -26,14 +26,6 @@
   gap: 29px;
 }
 
-.quadrado {
-  margin-top: -25px;
-  margin-bottom: -20px;
-  width: 31px;
-  height: 33px;
-  background: #c4c4c4;
-}
-
 .form label {
   margin-top: -15px;
   font-size: 1.5rem;
@@ -51,18 +43,22 @@
 .form textarea {
   margin-top: -25px;
   max-width: 400px;
+  min-width: 400px;
+  min-height: 125px;
   max-height: 125px;
   border: 1px solid #660027;
   border-radius: 4px;
 }
 
-.form button {
+.button-contact {
   width: 128px;
   height: 42px;
   background: #660027;
   border: 2px solid #660027;
   border-radius: 4px;
   color: #fff;
+  margin-top: 14px;
+  cursor: pointer;
 }
 
 .container-contact-bg {
@@ -113,6 +109,7 @@
 
   .form textarea {
     max-width: 243px;
+    min-width: 243px;
   }
 
   .container-contact-content p {

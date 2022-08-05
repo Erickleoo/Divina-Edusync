@@ -7,6 +7,17 @@
   width: 250px;
   height: 410px;
   border: 1px solid #9E9B9B;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  box-shadow:
+    0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.cards:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
 }
 
 .cards-content-text {
@@ -22,7 +33,7 @@
   color: #7D7777;
 }
 
-.cards-content-text button {
+.button {
   margin-top: 20px;
   width: 128px;
   height: 42px;
@@ -30,7 +41,35 @@
   border: 2px solid #660027;
   border-radius: 4px;
   color: #660027;
+  transition: ease-out 0.3s;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  color: #FFFFFF;
   cursor: pointer;
+}
+
+.button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #660027;
+}
+
+.button:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
 }
 
 @media (max-width: 834px) {
