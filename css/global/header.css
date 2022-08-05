@@ -11,6 +11,28 @@
 
 .lista ul li a {
   color: #000;
+  display: block;
+  position: relative;
+}
+
+.lista ul li a:hover {
+  color: #660027;
+}
+
+.lista ul li a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #660027;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.lista ul li a:hover::after,
+.lista ul li a:focus::after {
+  width: 100%;
 }
 
 
