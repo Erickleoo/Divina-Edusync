@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .lista ul {
@@ -36,13 +38,14 @@
 }
 
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .header {
-    width: 595px;
+    max-width: 595px;
+    width: 100%;
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 493px) {
   .header {
     width: 155px;
     display: flex;

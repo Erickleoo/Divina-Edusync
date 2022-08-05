@@ -1,4 +1,6 @@
 .boxes {
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -19,8 +21,12 @@
   color: #660027;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
 .form {
-  padding: 9px 171px 58px 189px;
   display: flex;
   flex-direction: column;
   gap: 29px;
@@ -77,9 +83,13 @@
 }
 
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .boxes {
-    width: 595px;
+    max-width: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
 
   .container-form {
@@ -117,11 +127,12 @@
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 493px) {
   .boxes {
     display: flex;
     flex-direction: column;
-    width: 325px;
+    max-width: 325px;
+    width: 100%;
   }
 
   .container-contact-bg {

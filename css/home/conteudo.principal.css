@@ -1,3 +1,8 @@
+.conteudo-principal {
+  max-width: 1200px;
+  width: 100%;
+}
+
 .conteudo-principal img {
   width: 100%;
 }
@@ -12,9 +17,10 @@
   text-align: justify;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .conteudo-principal {
     width: 595px;
+    width: 100%;
   }
 
   .conteudo-principal img {
@@ -25,5 +31,6 @@
 @media (max-width: 428px) {
   .conteudo-principal {
     width: 320px;
+    width: 100%;
   }
 }

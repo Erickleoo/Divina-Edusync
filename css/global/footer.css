@@ -23,7 +23,7 @@
   background: #660027;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 493px) {
   .footer-bg-contact {
     display: block;
   }
