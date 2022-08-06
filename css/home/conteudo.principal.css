@@ -1,5 +1,4 @@
 .conteudo-principal {
-  padding: 23px;
   max-width: 1200px;
   width: 100%;
 }
@@ -31,6 +30,7 @@
 
 @media (max-width: 428px) {
   .conteudo-principal {
+    padding: 23px;
     width: 320px;
     width: 100%;
   }
