@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 1200px;
   width: 100%;
+  padding: 23px;
 }
 
 .lista ul {
@@ -35,28 +36,4 @@
 .lista ul li a:hover::after,
 .lista ul li a:focus::after {
   width: 100%;
-}
-
-
-@media (max-width: 768px) {
-  .header {
-    max-width: 595px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 493px) {
-  .header {
-    width: 155px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .lista ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    align-items: flex-start;
-  }
 }

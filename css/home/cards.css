@@ -3,6 +3,7 @@
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
+  padding: 23px;
 }
 
 .cards {
@@ -72,25 +73,4 @@
   right: 0;
   opacity: 1;
   z-index: -1;
-}
-
-@media (max-width: 768px) {
-  .cards-content {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 595px;
-    width: 100%;
-    gap: 38px;
-  }
-}
-
-@media (max-width: 541px) {
-  .cards-content {
-    width: 320px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }

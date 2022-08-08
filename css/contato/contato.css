@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-content: center;
   gap: 10px;
+  padding: 23px;
 }
 
 .container-form {
@@ -80,62 +81,4 @@
   font-size: 1.4rem;
   text-align: center;
   color: #fff;
-}
-
-
-@media (max-width: 768px) {
-  .boxes {
-    max-width: 595px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .container-form {
-    width: 320px;
-  }
-
-  .container-contact-bg {
-    width: 256px;
-  }
-
-  .form {
-    padding-right: 28px;
-    padding-left: 28px;
-  }
-
-  .form label {
-    font-size: 0.875rem;
-  }
-
-  .quadrado {
-    display: none;
-  }
-
-  .form input {
-    width: 243px;
-  }
-
-  .form textarea {
-    max-width: 243px;
-    min-width: 243px;
-  }
-
-  .container-contact-content p {
-    font-size: 0.875rem;
-  }
-}
-
-@media (max-width: 493px) {
-  .boxes {
-    display: flex;
-    flex-direction: column;
-    max-width: 325px;
-    width: 100%;
-  }
-
-  .container-contact-bg {
-    display: none;
-  }
 }

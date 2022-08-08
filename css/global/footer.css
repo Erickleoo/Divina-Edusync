@@ -22,9 +22,3 @@
   height: 120px;
   background: #660027;
 }
-
-@media (max-width: 493px) {
-  .footer-bg-contact {
-    display: block;
-  }
-}

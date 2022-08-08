@@ -6,3 +6,7 @@
 @import url(./home/cards.css);
 
 @import url(./contato/contato.css);
+
+@import url(./responsividades/responsividadehome.css);
+
+@import url(./responsividades/responsividadecontato.css);
