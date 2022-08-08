@@ -19,6 +19,7 @@
 
 @media (max-width: 768px) {
   .conteudo-principal {
+    padding: 23px;
     width: 595px;
     width: 100%;
   }
@@ -30,7 +31,6 @@
 
 @media (max-width: 428px) {
   .conteudo-principal {
-    padding: 23px;
     width: 320px;
     width: 100%;
   }
